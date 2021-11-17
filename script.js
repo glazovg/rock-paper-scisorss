@@ -17,9 +17,7 @@ function startGame() {
 
     const random = Math.floor(Math.random() * options.short.length)
     const computerOption = options.short[random]
-    console.log(computerOption)
     const computerValue = options.value[random]
-    console.log(computerValue)
 
     if(challengerOption === null) break
 
