@@ -26,7 +26,7 @@ function startGame() {
         wins++
         alert(`Your opponent chose ${computerValue}. You won!`)
         playAgain = confirm('Wanna play again?')
-      } else if (challengerOption === 'R' && computerOption === 'R' || challengerOption === 'P' && computerOption === 'P' || challengerOption === 'S' && computerOption === 'S') {
+      } else if (challengerOption === computerOption) {
         ties++
         alert(`Your opponent chose ${computerValue}. Tied!`)
         playAgain = confirm('Wanna play again?')
